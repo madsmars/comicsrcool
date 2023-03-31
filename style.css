@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    {box-sizing:border-box;}
+    box-sizing:border-box;
 }
 
 body {
@@ -45,11 +45,11 @@ footer {
     display: block;
     position:relative;
     text-align: left;
-    line-height:3vw;
-    max-width: 15vw;
-    max-height: 25vw;
-    height: 25vw;
-    width: 11vw;
+    line-height:2.5vw;
+    max-width: 19vw;
+    max-height: 33vw;
+    height: 31.5vw;
+    width: 14vw;
     padding: 2vw 2vw 4vw 2vw;
     border: 2px solid #a0e65a;
     background-color: transparent;
@@ -157,6 +157,14 @@ button {
     background-color: transparent;
     border: none;
 
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:#a0e65a;
 }
 
 /* scroll bit */
