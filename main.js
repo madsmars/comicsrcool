@@ -1,32 +1,32 @@
 // GALLERY START
-// displayGalleryOnLoad();
+displayGalleryOnLoad();
 
-// function displayGalleryOnLoad() {
+function displayGalleryOnLoad() {
     
-//     const URL = window.location.href.split('#');
-//     console.log(window.location.href)
+    const URL = window.location.href.split('#');
+    console.log(window.location.href)
 
-//     // checks if the default page should be loaded
-//     if(URL.length == 1) {
-//         return;
-//     }
+    // checks if the default page should be loaded
+    if(URL.length == 1) {
+        return;
+    }
 
-//     const selectedGallery = "#" + URL[URL.length - 1];
-//     $(`${selectedGallery}`).show();
-//     $(".slideshow-container").not(`${selectedGallery}`).hide();
-// }
+    const selectedGallery = "#" + URL[URL.length - 1];
+    $(`${selectedGallery}`).show();
+    $(".slideshow-container").not(`${selectedGallery}`).hide();
+}
 
-// // any time one of the .gallery-links is clicked...
-// $('.main-nav1').click(function () {
+// any time one of the .gallery-links is clicked...
+$('.main-nav1').click(function () {
 
-//     console.log("hello")
+    console.log("hello")
 
-//     const selectedGallery = $(this).attr('href');
-//     console.log(selectedGallery)
+    const selectedGallery = $(this).attr('href');
+    console.log(selectedGallery)
 
-//     $(`${selectedGallery}`).show();
-//     $(".slideshow-container").not(`${selectedGallery}`).hide();
-// })
+    $(`${selectedGallery}`).show();
+    $(".slideshow-container").not(`${selectedGallery}`).hide();
+})
 
 // function generateAllImages() {
 //     const mainImage = $(".gallery a img").parent()
